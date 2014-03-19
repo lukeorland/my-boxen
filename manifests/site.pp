@@ -60,6 +60,11 @@ node default {
 
   # my custom things
   include hipchat
+  include chrome
+  include lastpass
+  include sourcetree
+  include spotify
+  include macvim
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
