@@ -65,6 +65,7 @@ node default {
   include sourcetree
   include spotify
   include macvim
+  include jumpcut
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
