@@ -70,8 +70,31 @@ node default {
   include spotify
   include alfred
   include flux
-  #include iterm2
+  include iterm2::dev
+  #include iterm2::colors::solarized_dark
   #include zsh
+
+  # osx config
+  include osx::global::enable_keyboard_control_access
+  include osx::global::expand_print_dialog
+  include osx::global::expand_save_dialog
+  include osx::global::disable_remote_control_ir_receiver
+  include osx::global::disable_autocorrect
+  include osx::dock::2d
+  include osx::dock::autohide
+  include osx::dock::clear_dock
+  include osx::dock::dim_hidden_apps
+  include osx::finder::show_all_on_desktop
+  include osx::finder::empty_trash_securely
+  include osx::finder::unhide_library
+  include osx::finder::show_hidden_files
+  include osx::finder::enable_quicklook_text_selection
+  include osx::universal_access::ctrl_mod_zoom
+  include osx::universal_access::enable_scrollwheel_zoom
+  include osx::disable_app_quarantine
+  include osx::no_network_dsstores
+  include osx::software_update
+  # TODO: enable tap to click: https://gist.github.com/tommeier/5288796
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {

@@ -299,10 +299,11 @@ Note to self: I had to do this to get it to work:
     ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future /opt/boxen/repo/script/boxen --no-fde
 
 TODO:
+- keyboard shortcuts (cmd-Q to open help menu)
+  https://coderwall.com/p/inaugg
+  https://gist.github.com/foca/6457114
 
 Add:
-- https://github.com/boxen/puppet-osx
-  + clear osx::dock::clear_dock
 - vim config
 - dotfiles
 
