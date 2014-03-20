@@ -302,6 +302,9 @@ TODO:
 - keyboard shortcuts (cmd-Q to open help menu)
   https://coderwall.com/p/inaugg
   https://gist.github.com/foca/6457114
+- Remove alfred
+- OSX
+  + Disable Show Time Machine in menu bar
 
 Add:
 - vim config
