@@ -306,6 +306,7 @@ Add:
 - dotfiles
 - zsh
 - vim config
+- flux
 
 Make:
 - middleclick
