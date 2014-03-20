@@ -305,6 +305,7 @@ TODO:
 - Remove alfred
 - OSX
   + Disable Show Time Machine in menu bar
+- login apps
 
 Add:
 - vim config
