@@ -291,3 +291,21 @@ you will need to set the `BOXEN_GITHUB_ENTERPRISE_URL` and
 See [FAQ](https://github.com/boxen/our-boxen/blob/master/docs/faq.md).
 
 Use Issues or #boxen on irc.freenode.net.
+
+Note to self: I had to do this to get it to work:
+
+    ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future /opt/boxen/repo/script/boxen --no-fde
+
+TODO:
+
+Add:
+- https://github.com/boxen/puppet-osx
+  + clear osx::dock::clear_dock
+- alfred
+- iTerm2
+- dotfiles
+- zsh
+- vim config
+
+Make:
+- middleclick
