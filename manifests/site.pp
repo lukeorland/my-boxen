@@ -68,6 +68,10 @@ node default {
   include macvim
   include sourcetree
   include spotify
+  include alfred
+  include flux
+  #include iterm2
+  #include zsh
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {

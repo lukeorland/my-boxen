@@ -303,12 +303,8 @@ TODO:
 Add:
 - https://github.com/boxen/puppet-osx
   + clear osx::dock::clear_dock
-- alfred
-- iTerm2
-- dotfiles
-- zsh
 - vim config
-- flux
+- dotfiles
 
 Make:
 - middleclick
