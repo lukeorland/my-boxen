@@ -59,13 +59,15 @@ node default {
   include nginx
 
   # my custom things
-  include hipchat
   include chrome
+  include evernote
+  include googledrive
+  include hipchat
+  include jumpcut
   include lastpass
+  include macvim
   include sourcetree
   include spotify
-  include macvim
-  include jumpcut
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {

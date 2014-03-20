@@ -56,3 +56,13 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "chrome",      "1.1.2"
+github "evernote",    "2.0.5"
+github "googledrive", "1.0.2"
+github "hipchat",     "1.1.0"
+github "jumpcut",     "1.0.0"
+github "lastpass",    "1.1.0", :repo => "dieterdemeyer/puppet-lastpass"
+github "macvim",      "1.0.0"
+github "sourcetree",  "1.0.0"
+github "spotify",     "1.0.1"
