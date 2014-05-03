@@ -318,6 +318,8 @@ Add:
 - disk encryption
 - move my settings to manifest/people/orluke.pp 
   or something like that
+- ? kaleidoscope
+  https://github.com/ngs/puppet-kaleidoscope
 
 Make:
 - middleclick
