@@ -320,7 +320,7 @@ Use Issues or #boxen on irc.freenode.net.
 I had to do this to get it to work:
 
     xcode-select --install
-    git clone git@github.com:lukeorland/our-boxen.git /opt/boxen/repo
+    git clone git@github.com:lukeorland/my-boxen.git /opt/boxen/repo
     ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future /opt/boxen/repo/script/boxen --no-fde
 
 ## TODO:
@@ -342,6 +342,8 @@ Add:
   or something like that
 - ? kaleidoscope
   https://github.com/ngs/puppet-kaleidoscope
+- fish
+  https://github.com/boxen/puppet-fish
 
 Make:
 - middleclick
