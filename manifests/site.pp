@@ -76,6 +76,7 @@ node default {
   include vagrant
   include java
   include adium
+  include fish
 
   # osx config
   include osx::global::enable_keyboard_control_access
