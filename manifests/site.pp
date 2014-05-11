@@ -75,6 +75,7 @@ node default {
   #include zsh
   include vagrant
   include java
+  include adium
 
   # osx config
   include osx::global::enable_keyboard_control_access
