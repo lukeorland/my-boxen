@@ -74,6 +74,7 @@ node default {
   #include iterm2::colors::solarized_dark
   #include zsh
   include vagrant
+  include java
 
   # osx config
   include osx::global::enable_keyboard_control_access
