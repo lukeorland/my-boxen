@@ -338,7 +338,7 @@ Add:
   https://coderwall.com/p/inaugg
   https://gist.github.com/foca/6457114
 - disk encryption
-- move my settings to manifest/people/orluke.pp 
+- move my settings to manifest/people/orluke.pp
   or something like that
 - ? kaleidoscope
   https://github.com/ngs/puppet-kaleidoscope
