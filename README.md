@@ -342,8 +342,9 @@ Add:
   or something like that
 - ? kaleidoscope
   https://github.com/ngs/puppet-kaleidoscope
-- fish
-  https://github.com/boxen/puppet-fish
-
 Make:
 - middleclick
+
+Doesn't work
+- fish
+  Can't configure the PATH correctly to include /opt/boxen/...

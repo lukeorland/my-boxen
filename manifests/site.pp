@@ -76,7 +76,6 @@ node default {
   include vagrant
   include java
   include adium
-  include fish
 
   # osx config
   include osx::global::enable_keyboard_control_access
@@ -123,6 +122,11 @@ node default {
       'findutils',
       'gnu-tar'
     ]:
+  }
+
+  # Remove
+  package { 'fish':
+    ensure => absent
   }
 
   file { "${boxen::config::srcdir}/our-boxen":
