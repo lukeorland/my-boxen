@@ -77,6 +77,7 @@ node default {
   include java
   include adium
   include virtualbox
+  include chicken_of_the_vnc
 
   # osx config
   include osx::global::enable_keyboard_control_access
