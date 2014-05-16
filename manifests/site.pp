@@ -132,6 +132,9 @@ node default {
   package { 'fish':
     ensure => absent
   }
+  package { 'alfred':
+    ensure => absent
+  }
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
