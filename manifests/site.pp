@@ -80,6 +80,7 @@ node default {
   include chicken_of_the_vnc
   include firefox
   include vlc
+  include transmission
 
   # osx config
   include osx::global::enable_keyboard_control_access
