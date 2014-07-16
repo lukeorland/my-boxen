@@ -70,6 +70,7 @@ node default {
   include spotify
   include alfred
   include flux
+  include github_for_mac
   include iterm2::dev
   #include iterm2::colors::solarized_dark
   #include zsh
